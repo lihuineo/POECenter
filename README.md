@@ -3,7 +3,7 @@
 2.核心逻辑：pallets/poe，其中pallet/poe/src下的lib\mock\tests, 其中lib定义了存证模块的基本功能逻辑, mock用于定义模拟环境下运行时的配置，tests是存证功能的单元测试    
 
 3.效果展示：  
-* create_claim()用于创建存证和撤销存证。事件类型是ClaimCreated(),错误类型有：创建错误ProofAlreadyExist（凭证已存在）
+* create_claim()用于创建存证。事件类型是ClaimCreated(),错误类型有：创建错误ProofAlreadyExist（凭证已存在）
 * 单元测试方法create_claim_test()
 * 创建存证的功能验证截图：
   <img width="1427" alt="创建凭证-1" src="https://github.com/lihuineo/POECenter/assets/161575076/4d2640fb-d1b2-48a3-8ed8-edac5c11a8ce">
